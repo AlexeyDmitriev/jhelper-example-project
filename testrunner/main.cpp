@@ -12,6 +12,7 @@ namespace jhelper {
 struct Test {
 	std::string input;
 	std::string output;
+	bool active;
 };
 
 bool check(std::string expected, std::string actual) {
@@ -26,18 +27,30 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
 	std::vector<jhelper::Test> tests = {
-		{"1", "43"},{"0", "43"},
+		{"1", "43", true},{"0", "43", true},
 	};
 	bool allOK = true;
+	int testID = 0;
 	for(const jhelper::Test& test: tests ) {
 		std::stringstream in(test.input);
 		std::ostringstream out;
 		Task solver;
 		solver.solve(in, out);
+		std::cout << "Test #" << ++testID << std::endl;
 		std::cout << "Input: \n" << test.input << std::endl;
 		std::cout << "Expected output: \n" << test.output << std::endl;
-		std::cout << "Actual output: \n" << out.str() << std::endl;
-		allOK = allOK && jhelper::check(test.output, out.str());
+		if (test.active) {
+			std::cout << "Actual output: \n" << out.str() << std::endl;
+			bool result = jhelper::check(test.output, out.str());
+			allOK = allOK && result;
+			std::cout << "Result: " << (result ? "OK" : "Wrong answer") << std::endl;
+		}
+		else {
+			std::cout << "SKIPPED\n";
+		}
+
+		std::cout << std::endl;
+
 	}
 	if(allOK) {
 		std::cout << "All OK" << std::endl;
@@ -45,4 +58,5 @@ int main() {
 	else {
 		std::cout << "Some cases failed" << std::endl;
 	};
+	return 0;
 }
