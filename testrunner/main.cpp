@@ -1,4 +1,4 @@
-#include "../tasks/uva/10139Factovisors.cpp"
+#include "../tasks/cf/CDivideByThree.cpp"
 
 #include <iostream>
 #include <fstream>
@@ -29,7 +29,7 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
 	std::vector<jhelper::Test> tests = {
-		{"6 9\n6 27\n20 10000\n20 100000\n1000 1009\n", "9 divides 6!\n27 does not divide 6!\n10000 divides 20!\n100000 does not divide 20!\n1009 does not divide 1000!\n", true, true},
+		{"1033\n", "33\n", true, true},{"10\n", "0\n", true, true},{"11\n", "-1\n", true, true},
 	};
 	bool allOK = true;
 	int testID = 0;
@@ -48,7 +48,7 @@ int main() {
 			std::stringstream in(test.input);
 			std::ostringstream out;
 			std::clock_t start = std::clock();
-			Factovisors solver;
+			CDivideByThree solver;
 			solver.solve(in, out);
 			std::clock_t finish = std::clock();
 			double currentTime = double(finish - start) / CLOCKS_PER_SEC;
