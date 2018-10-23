@@ -2,10 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="emli-competitive-programming" targetName="testrunner" />
       <config projectName="emli-competitive-programming" targetName="test" />
       <config projectName="emli-competitive-programming" targetName="jhelper_example_project" />
       <config projectName="emli-competitive-programming" targetName="output" />
+      <config projectName="emli-competitive-programming" targetName="testrunner" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,19 +14,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e173ed55-e541-424a-82e1-b5da979c74d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/A___.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/A.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Task.xml" beforeDir="false" />
+    <list default="true" id="e173ed55-e541-424a-82e1-b5da979c74d7" name="Default" comment="Solved one problem from UVA">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jedi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/10139___Factovisors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/Factovisors.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/A___.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task.template" beforeDir="false" afterPath="$PROJECT_DIR$/task.template" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Task.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testrunner/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/testrunner/main.cpp" afterDir="false" />
     </list>
     <ignored path="jhelper-example-project.iws" />
@@ -46,40 +41,43 @@
     <session id="-1032226237">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="16" />
-          <entry key="hpp" value="1" />
+          <entry key="cpp" value="32" />
+          <entry key="hpp" value="4" />
           <entry key="md" value="1" />
-          <entry key="template" value="13" />
+          <entry key="template" value="14" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="3" />
-          <entry key="ObjectiveC" value="30" />
+          <entry key="ObjectiveC" value="50" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="300" />
-          <entry key="template" value="38" />
-          <entry key="txt" value="40" />
+          <entry key="cpp" value="1299" />
+          <entry key="hpp" value="166" />
+          <entry key="template" value="43" />
+          <entry key="txt" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="40" />
-          <entry key="ObjectiveC" value="338" />
+          <entry key="ObjectiveC" value="1508" />
+          <entry key="PLAIN_TEXT" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -92,19 +90,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/tasks/Factovisors.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/A.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-364">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -112,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+            <state relative-caret-position="222">
+              <caret line="75" column="17" lean-forward="true" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -132,9 +121,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/submission.template" />
+        <option value="$PROJECT_DIR$/tasks/A.cpp" />
         <option value="$PROJECT_DIR$/task.template" />
         <option value="$PROJECT_DIR$/testrunner/main.cpp" />
-        <option value="$PROJECT_DIR$/tasks/A.cpp" />
+        <option value="$PROJECT_DIR$/library/primeFact.hpp" />
+        <option value="$PROJECT_DIR$/tasks/Factovisors.cpp" />
         <option value="$PROJECT_DIR$/output/main.cpp" />
       </list>
     </option>
@@ -206,6 +197,14 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/library" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tasks/cf/189" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -218,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.A. Разрежь ленточку">
+  <component name="RunManager" selected="Task.10139 - Factovisors">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -289,7 +288,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Task.A. Разрежь ленточку" />
+      <item itemvalue="Task.10139 - Factovisors" />
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.output" />
@@ -309,33 +308,43 @@
       <workItem from="1540225425173" duration="435000" />
       <workItem from="1540225932392" duration="36000" />
       <workItem from="1540225983447" duration="361000" />
-      <workItem from="1540226357535" duration="1952000" />
+      <workItem from="1540226357535" duration="8234000" />
+      <workItem from="1540237806276" duration="477000" />
+      <workItem from="1540310141937" duration="5610000" />
     </task>
+    <task id="LOCAL-00001" summary="First accepted :)">
+      <created>1540228434320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540228434320</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2784000" />
+    <option name="totallyTimeSpent" value="15264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-25" width="1368" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26742426" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27651516" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4878837" visible="true" weight="0.32612056" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39876354" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48712122" weight="0.32537314" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39850748" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="CMake" order="8" sideWeight="0.49676898" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32985073" />
+      <window_info anchor="bottom" id="CMake" order="8" sideWeight="0.49676898" weight="0.32921174" />
       <window_info anchor="bottom" id="Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49676898" weight="0.32954547" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5128788" side_tool="true" weight="0.32686567" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49015152" weight="0.32612056" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5128788" side_tool="true" weight="0.32612056" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49015152" weight="0.32537314" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32985073" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -359,28 +368,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First accepted :)" />
+    <MESSAGE value="Solved one problem from UVA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved one problem from UVA" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/Task.cpp" />
-    <entry file="file://$PROJECT_DIR$/library/lib.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testrunner/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/submission.template">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -391,29 +392,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task.template">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/A.cpp">
+    <entry file="file://$PROJECT_DIR$/task.template">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ATwoAbbreviations.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/A.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/ACutRibbon.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskB.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskC.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskD.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskE.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskA.cpp" />
+    <entry file="file://$PROJECT_DIR$/library/lib.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/primeFact.hpp" />
+    <entry file="file://$PROJECT_DIR$/testrunner/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/cf/189/A.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        <state relative-caret-position="222">
+          <caret line="75" column="17" lean-forward="true" selection-end-line="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/tasks/Factovisors.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

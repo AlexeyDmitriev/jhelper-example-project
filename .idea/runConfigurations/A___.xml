@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="A. Разрежь ленточку" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" className="A" cppPath="tasks/A.cpp" inputType="CUSTOM" inputFile="стандартный ввод" outputType="CUSTOM" outputFile="стандартный вывод" testType="SINGLE">
-    <tests>
-      <test input="5 5 3 2&#10;" output="2&#10;" active="true" />
-      <test input="7 5 5 2&#10;" output="2&#10;" active="true" />
-    </tests>
-    <method v="2" />
-  </configuration>
-</component>
