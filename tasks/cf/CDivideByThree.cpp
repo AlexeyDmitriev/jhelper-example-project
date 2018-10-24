@@ -4,7 +4,7 @@ using namespace std;
 #define debug(x) cout << #x <<" = " << x << endl
 #define MINUS(a) memset(a,0xff,sizeof(a))
 
-const int N = (int) 1e4 + 7;
+const int N = (int) 1e5 + 7;
 
 class CDivideByThree {
     string s;

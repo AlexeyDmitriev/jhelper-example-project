@@ -27,43 +27,42 @@ const int dx[4] = {0, 0, 1, -1};
 const int dy[4] = {1, -1, 0, 0};
 
 
-class FractionsAgain {
+class CountTheFactors {
 public:
     void solve(std::istream &cin, std::ostream &cout) {
         int n;
         while (cin >> n) {
-            int ans = 0;
-            for (int i = n + 1; i <= 2 * n; ++i) {
-                int up = i - n;
-                int down = i * n;
-                int k = __gcd(up, down);
-                up /= k;
-                down /= k;
-                if (up == 1) {
-                    ans++;
-                }
+            int t = n;
+            if (n == 0) {
+                break;
             }
-            cout << ans << endl;
-            for (int i = n + 1; i <= 2 * n; ++i) {
-                int up = i - n;
-                int down = i * n;
-                int k = __gcd(up, down);
-                up /= k;
-                down /= k;
-                if (up == 1) {
-                    cout << 1 << "/" << n << " = " << up << "/" << down << " + " << 1 << "/" << i << endl;
+            int i = 2;
+            set<int> ans;
+
+            while (i * i <= n) {
+
+                while (n % i == 0) {
+                    ans.insert(i);
+                    n /= i;
                 }
+
+                i++;
             }
 
+            if (n > 1) {
+                ans.insert(n);
+            }
+
+            cout << t << " : " << ans.size() << endl;
         }
     }
 };
 
 
 int main() {
-	FractionsAgain solver;
-	std::istream& in(std::cin);
-	std::ostream& out(std::cout);
-	solver.solve(in, out);
-	return 0;
+    CountTheFactors solver;
+    std::istream& in(std::cin);
+    std::ostream& out(std::cout);
+    solver.solve(in, out);
+    return 0;
 }
