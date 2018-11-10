@@ -12,7 +12,7 @@ using namespace std;
 #define printv(v) if (v.size()> 0) {for(auto x : v) cout << x << " "; cout << endl;}
 #define MINUS(a) memset(a,0xff,sizeof(a))
 
-const int N = 1e5 + 7;
+const int N = (int)1e5 + 7;
 
 const int dx[4] = {0,  0, 1, -1};
 const int dy[4] = {1, -1, 0,  0};

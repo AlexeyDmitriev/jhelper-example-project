@@ -1,4 +1,4 @@
-#include "../tasks/uva/FractionsAgain.cpp"
+#include "../tasks/uva/OutOf5.cpp"
 
 #include <iostream>
 #include <fstream>
@@ -29,7 +29,7 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
 	std::vector<jhelper::Test> tests = {
-		{"12\n2\n", "8\n1/12 = 1/156 + 1/13\n1/12 = 1/84 + 1/14\n1/12 = 1/60 + 1/15\n1/12 = 1/48 + 1/16\n1/12 = 1/36 + 1/18\n1/12 = 1/30 + 1/20\n1/12 = 1/28 + 1/21\n1/12 = 1/24 + 1/24\n2\n1/2 = 1/6 + 1/3\n1/2 = 1/4 + 1/4\n", true, true},
+		{"1 2 3 4 5\n1 1 1 1 1\n2 3 5 7 11\n0 0 0 0 0\n", "Possible\nImpossible\nPossible\n", true, true},
 	};
 	bool allOK = true;
 	int testID = 0;
@@ -48,7 +48,7 @@ int main() {
 			std::stringstream in(test.input);
 			std::ostringstream out;
 			std::clock_t start = std::clock();
-			FractionsAgain solver;
+			OutOf5 solver;
 			solver.solve(in, out);
 			std::clock_t finish = std::clock();
 			double currentTime = double(finish - start) / CLOCKS_PER_SEC;
