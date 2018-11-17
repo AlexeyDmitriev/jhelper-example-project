@@ -19,7 +19,7 @@ const int dy[4] = {1, -1, 0,  0};
 
 
 
-class %ClassName% {
+class Mint {
 public:
 	void solve(std::istream& cin, std::ostream& cout) {
 		ios::sync_with_stdio(false);

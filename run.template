@@ -69,7 +69,7 @@ int main() {
 
 	}
 	if(allOK) {
-		std::cout << "All OK" << std::endl;
+		std::cout << "Accepted" << std::endl;
 	}
 	else {
 		std::cout << "Some cases failed" << std::endl;
