@@ -19,10 +19,37 @@ const int dy[4] = {1, -1, 0,  0};
 
 
 
-class Mint {
+class opencup15 {
 public:
 	void solve(std::istream& cin, std::ostream& cout) {
 		ios::sync_with_stdio(false);
 		cin.tie(0);
+
+		int t;
+		cin >> t;
+
+		vector<int> total(30);
+
+		for (int i = 0; i < t; ++i) {
+			string s;
+			int k;
+			cin >> s >> k;
+			vector<int> a(30);
+
+			for (int j = 0; j < s.length(); ++j) {
+				a[s[j] - 'a']++;
+			}
+
+			for (int j = 0; j < 30; ++j) {
+				a[j] *= k;
+				total[j] += a[j];
+			}
+		}
+
+		int ans = INT_MIN;
+		for (int j = 0; j < 30; ++j) {
+			ans = max(ans,total[j]);
+		}
+		cout << ans << endl;
 	}
 };

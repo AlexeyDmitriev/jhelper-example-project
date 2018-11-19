@@ -1,4 +1,4 @@
-#include "/home/jedi/Desktop/competitive/tasks/CHoroshiiMassiv.cpp"
+#include "../tasks/cf/CIgraNaFortepiano.cpp"
 
 #include <iostream>
 #include <fstream>
@@ -29,7 +29,7 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
 	std::vector<jhelper::Test> tests = {
-		{"5\n2 5 1 2 2\n", "3\n4 1 5\n", true, true},{"4\n8 3 5 2\n", "2\n1 4 \n", true, true},{"5\n2 1 2 4 3\n", "0\n\n", true, true},
+		{"1\n50", "1", true, true},
 	};
 	bool allOK = true;
 	int testID = 0;
@@ -48,7 +48,7 @@ int main() {
 			std::stringstream in(test.input);
 			std::ostringstream out;
 			std::clock_t start = std::clock();
-			CHoroshiiMassiv solver;
+			CIgraNaFortepiano solver;
 			solver.solve(in, out);
 			std::clock_t finish = std::clock();
 			double currentTime = double(finish - start) / CLOCKS_PER_SEC;

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="emli-competitive-programming" targetName="test" />
       <config projectName="emli-competitive-programming" targetName="testrunner" />
+      <config projectName="emli-competitive-programming" targetName="test" />
       <config projectName="emli-competitive-programming" targetName="jhelper_example_project" />
     </generated>
   </component>
@@ -14,17 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e173ed55-e541-424a-82e1-b5da979c74d7" name="Default" comment="Solved one uva problem.">
-      <change afterPath="$PROJECT_DIR$/.idea/JHelper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/uva/DividingCoins.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/uva/Divisibility.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/10344___23_out_of_5.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/C____.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/cf/CIgraNaFortepiano.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/uva/Mint.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/10717___Mint.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.template" beforeDir="false" afterPath="$PROJECT_DIR$/run.template" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submission.template" beforeDir="false" afterPath="$PROJECT_DIR$/submission.template" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task.template" beforeDir="false" afterPath="$PROJECT_DIR$/task.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Mint.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/opencup/XIX Open Cup named after E.V. Pankratiev. Grand Prix of Siberia, Division 2/opencup15.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testrunner/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/testrunner/main.cpp" afterDir="false" />
     </list>
     <ignored path="jhelper-example-project.iws" />
@@ -39,25 +35,30 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="name.admitriev.jhelper.configuration.TaskConfigurationExecutionTargetCMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
     <session id="-1032226237">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="42" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="2" />
-          <entry key="project.open.time.37" value="3" />
-          <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.39" value="4" />
+          <entry key="project.open.time.37" value="4" />
+          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.39" value="5" />
           <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="2" />
-          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -67,13 +68,13 @@
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.70" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="174" />
-          <entry key="h" value="3" />
+          <entry key="cpp" value="215" />
+          <entry key="h" value="8" />
           <entry key="hpp" value="4" />
           <entry key="md" value="1" />
           <entry key="template" value="32" />
@@ -83,14 +84,15 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="8" />
-          <entry key="ObjectiveC" value="210" />
+          <entry key="ObjectiveC" value="256" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="12465" />
+          <entry key="cpp" value="15852" />
           <entry key="hpp" value="166" />
+          <entry key="mm" value="3" />
           <entry key="template" value="59" />
           <entry key="txt" value="142" />
         </counts>
@@ -99,7 +101,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="42" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="12689" />
+          <entry key="ObjectiveC" value="16079" />
           <entry key="PLAIN_TEXT" value="100" />
         </counts>
       </usages-collector>
@@ -112,11 +114,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task.template">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/cf/CIgraNaFortepiano.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="113">
+              <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/output/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="22" selection-end-line="133" />
             </state>
           </provider>
         </entry>
@@ -172,17 +183,22 @@
         <option value="$PROJECT_DIR$/task.template" />
         <option value="$PROJECT_DIR$/run.template" />
         <option value="$PROJECT_DIR$/tasks/CKvadratniePodmnozhestva.cpp" />
-        <option value="$PROJECT_DIR$/output/main.cpp" />
         <option value="$PROJECT_DIR$/tasks/Divisibility.cpp" />
         <option value="$PROJECT_DIR$/tasks/DRomanIChisla.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/tasks/TaskC.cpp" />
         <option value="$PROJECT_DIR$/tasks/CBanMi.cpp" />
         <option value="$PROJECT_DIR$/tasks/CIlyaIMatrica.cpp" />
         <option value="$PROJECT_DIR$/tasks/APrigayushayaLyagushka.cpp" />
         <option value="$PROJECT_DIR$/tasks/BObespokoennieZhilci.cpp" />
         <option value="$PROJECT_DIR$/tasks/CHoroshiiMassiv.cpp" />
         <option value="$PROJECT_DIR$/tasks/a.cpp" />
+        <option value="$PROJECT_DIR$/tasks/Mint.cpp" />
+        <option value="$PROJECT_DIR$/tasks/15.cpp" />
+        <option value="$PROJECT_DIR$/tasks/opencup15.cpp" />
+        <option value="$PROJECT_DIR$/tasks/opencup14.cpp" />
+        <option value="$PROJECT_DIR$/tasks/TaskC.cpp" />
+        <option value="$PROJECT_DIR$/output/main.cpp" />
+        <option value="$PROJECT_DIR$/tasks/CIgraNaFortepiano.cpp" />
       </list>
     </option>
   </component>
@@ -198,7 +214,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1272" />
     <option name="height" value="738" />
   </component>
@@ -228,6 +244,11 @@
               <item name="competitive" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="emli-competitive-programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="competitive" type="462c0819:PsiDirectoryNode" />
+              <item name="testrunner" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -242,10 +263,11 @@
     <property name="last_opened_file_path" value="$USER_HOME$/CLionProjects/untitled" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tasks/opencup/XIX Open Cup named after E.V. Pankratiev. Grand Prix of Siberia, Division 2" />
       <recent name="$PROJECT_DIR$/tasks/uva" />
       <recent name="$PROJECT_DIR$/tasks/cf" />
       <recent name="$PROJECT_DIR$/tasks/cf/189" />
@@ -267,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.10717 - Mint">
+  <component name="RunManager" selected="Task.C. Игра на фортепиано">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -333,10 +355,10 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Task.C. Игра на фортепиано" />
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.testrunner" />
-      <item itemvalue="Task.10717 - Mint" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -385,7 +407,18 @@
       <workItem from="1542205667195" duration="1507000" />
       <workItem from="1542373645531" duration="8352000" />
       <workItem from="1542448534788" duration="593000" />
-      <workItem from="1542467252904" duration="881000" />
+      <workItem from="1542467252904" duration="4362000" />
+      <workItem from="1542472721278" duration="5087000" />
+      <workItem from="1542517715443" duration="663000" />
+      <workItem from="1542536180597" duration="9761000" />
+      <workItem from="1542557117792" duration="4168000" />
+      <workItem from="1542591641981" duration="2087000" />
+      <workItem from="1542630351067" duration="149000" />
+      <workItem from="1542630821970" duration="133000" />
+      <workItem from="1542630991809" duration="155000" />
+      <workItem from="1542631185817" duration="108000" />
+      <workItem from="1542634711284" duration="5615000" />
+      <workItem from="1542642359204" duration="3323000" />
     </task>
     <task id="LOCAL-00001" summary="First accepted :)">
       <created>1540228434320</created>
@@ -422,11 +455,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541850443683</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Solved one uva problem.">
+      <created>1542468817351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542468817351</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119157000" />
+    <option name="totallyTimeSpent" value="153887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,16 +478,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="742" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="-25" width="1368" height="794" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26363635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3151515" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32985073" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48636365" weight="0.42016807" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.394958" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48636365" visible="true" weight="0.419403" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39402986" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985073" />
@@ -455,8 +494,8 @@
       <window_info anchor="bottom" id="CMake" order="8" sideWeight="0.49676898" weight="0.32605043" />
       <window_info anchor="bottom" id="Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49676898" weight="0.32954547" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51363635" side_tool="true" weight="0.32436976" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49015152" weight="0.3210084" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5121212" side_tool="true" weight="0.32089552" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4878788" weight="0.32089552" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32985073" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -488,60 +527,23 @@
     <MESSAGE value="Solved one uva problem." />
     <option name="LAST_COMMIT_MESSAGE" value="Solved one uva problem." />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="res" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>res</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tasks/ACutRibbon.cpp" />
-    <entry file="file://$PROJECT_DIR$/library/lib.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/primeFact.hpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/cf/189/A.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/C.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/cf/CDivideByThree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/uva/CodeRefactoring.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="39" column="118" selection-start-line="39" selection-start-column="118" selection-end-line="39" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/uva/10139Factovisors.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/uva/CountTheFactors.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/CPointsOnLine.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/uva/PrimeFactors.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/uva/FractionsAgain.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -562,22 +564,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="779" selection-start-line="779" selection-end-line="779" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/uva/OutOf5.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testrunner/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/uva/DividingCoins.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -602,13 +594,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/DRomanIChisla.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/TaskA.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/TaskB.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/TaskD.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/TaskE.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/TaskF.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/TaskG.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/TaskC.cpp" />
     <entry file="file://$PROJECT_DIR$/submission.template">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -634,25 +619,131 @@
     <entry file="file://$PROJECT_DIR$/tasks/CIlyaIMatrica.cpp" />
     <entry file="file://$PROJECT_DIR$/tasks/APrigayushayaLyagushka.cpp" />
     <entry file="file://$PROJECT_DIR$/tasks/BObespokoennieZhilci.cpp" />
-    <entry file="file://$PROJECT_DIR$/output/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="52" column="5" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/CHoroshiiMassiv.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/a.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="36" column="3" selection-start-line="36" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/a.cpp" />
     <entry file="file://$PROJECT_DIR$/task.template">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/alloc_traits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="490" selection-start-line="490" selection-end-line="490" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/uva/Mint.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="55" column="73" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ABigButtons.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/BMural.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/CLetMeCountTheWays.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/15.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/opencup/XIX Open Cup named after E.V. Pankratiev. Grand Prix of Siberia, Division 2/opencup15.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/opencup14.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskE.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/TaskG.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/TaskD.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/TaskF.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/TaskA.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="779" selection-start-line="779" selection-end-line="779" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/TaskB.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/TaskC.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="86" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testrunner/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/cf/CIgraNaFortepiano.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" selection-end-line="133" />
         </state>
       </provider>
     </entry>

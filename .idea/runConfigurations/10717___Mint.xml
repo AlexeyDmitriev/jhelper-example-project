@@ -1,8 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="10717 - Mint" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" className="Mint" cppPath="tasks/Mint.cpp" inputType="STANDARD" outputType="STANDARD" testType="SINGLE">
-    <tests>
-      <test input="4 2&#10;50&#10;100&#10;200&#10;400&#10;1000&#10;2000&#10;0 0&#10;" output="800 1200&#10;2000 2000&#10;" active="true" />
-    </tests>
-    <method v="2" />
-  </configuration>
-</component>
