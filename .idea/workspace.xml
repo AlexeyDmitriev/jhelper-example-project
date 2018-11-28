@@ -13,14 +13,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e173ed55-e541-424a-82e1-b5da979c74d7" name="Default" comment="Solved one uva problem.">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/C____.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/cf/CIgraNaFortepiano.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/uva/Mint.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/10717___Mint.xml" beforeDir="false" />
+    <list default="true" id="e173ed55-e541-424a-82e1-b5da979c74d7" name="Default" comment="Solved dp problem div2C from codeforces">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Key_Task.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/KeyTask.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/C____.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/Mint.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/opencup/XIX Open Cup named after E.V. Pankratiev. Grand Prix of Siberia, Division 2/opencup15.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testrunner/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/testrunner/main.cpp" afterDir="false" />
     </list>
     <ignored path="jhelper-example-project.iws" />
@@ -40,27 +38,29 @@
     <session id="-1032226237">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="42" />
+          <entry key="project.closed" value="51" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="2" />
-          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.37" value="4" />
-          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.38" value="3" />
           <entry key="project.open.time.39" value="5" />
           <entry key="project.open.time.40" value="2" />
-          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.42" value="2" />
-          <entry key="project.open.time.43" value="2" />
-          <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.43" value="3" />
+          <entry key="project.open.time.44" value="3" />
+          <entry key="project.open.time.45" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.54" value="1" />
@@ -68,41 +68,41 @@
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.70" value="1" />
-          <entry key="project.opened" value="48" />
+          <entry key="project.opened" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="215" />
-          <entry key="h" value="8" />
+          <entry key="cpp" value="251" />
+          <entry key="h" value="10" />
           <entry key="hpp" value="4" />
           <entry key="md" value="1" />
-          <entry key="template" value="32" />
+          <entry key="template" value="38" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="8" />
-          <entry key="ObjectiveC" value="256" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="ObjectiveC" value="298" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="15852" />
+          <entry key="cpp" value="17725" />
           <entry key="hpp" value="166" />
-          <entry key="mm" value="3" />
+          <entry key="mm" value="6" />
           <entry key="template" value="59" />
-          <entry key="txt" value="142" />
+          <entry key="txt" value="196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="42" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="16079" />
-          <entry key="PLAIN_TEXT" value="100" />
+          <entry key="ObjectiveC" value="17955" />
+          <entry key="PLAIN_TEXT" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -114,20 +114,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/cf/CIgraNaFortepiano.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/output/main.cpp">
+        <entry file="file://$PROJECT_DIR$/tasks/KeyTask.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="22" selection-end-line="133" />
+            <state relative-caret-position="-25">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -149,8 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/library/lib.hpp" />
-        <option value="$PROJECT_DIR$/tasks/Task.cpp" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tasks/A.cpp" />
         <option value="$PROJECT_DIR$/library/primeFact.hpp" />
@@ -197,8 +186,11 @@
         <option value="$PROJECT_DIR$/tasks/opencup15.cpp" />
         <option value="$PROJECT_DIR$/tasks/opencup14.cpp" />
         <option value="$PROJECT_DIR$/tasks/TaskC.cpp" />
-        <option value="$PROJECT_DIR$/output/main.cpp" />
         <option value="$PROJECT_DIR$/tasks/CIgraNaFortepiano.cpp" />
+        <option value="$PROJECT_DIR$/tasks/DTeleperedachi.cpp" />
+        <option value="$PROJECT_DIR$/tasks/opencupM.cpp" />
+        <option value="$PROJECT_DIR$/output/main.cpp" />
+        <option value="$PROJECT_DIR$/tasks/KeyTask.cpp" />
       </list>
     </option>
   </component>
@@ -247,6 +239,12 @@
             <path>
               <item name="emli-competitive-programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="competitive" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="opencup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emli-competitive-programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="competitive" type="462c0819:PsiDirectoryNode" />
               <item name="testrunner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -263,18 +261,18 @@
     <property name="last_opened_file_path" value="$USER_HOME$/CLionProjects/untitled" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tasks/opencup/XIX Open Cup named after E.V. Pankratiev. Grand Prix of Siberia, Division 2" />
-      <recent name="$PROJECT_DIR$/tasks/uva" />
-      <recent name="$PROJECT_DIR$/tasks/cf" />
-      <recent name="$PROJECT_DIR$/tasks/cf/189" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/output" />
       <recent name="$PROJECT_DIR$/library" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tasks/cf" />
+      <recent name="$PROJECT_DIR$/tasks/opencup/XIX Open Cup named after E.V. Pankratiev. Grand Prix of Siberia, Division 2" />
+      <recent name="$PROJECT_DIR$/tasks/uva" />
+      <recent name="$PROJECT_DIR$/tasks/cf/189" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Task.C. Игра на фортепиано">
+  <component name="RunManager" selected="Task.Key Task">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -355,7 +353,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Task.C. Игра на фортепиано" />
+      <item itemvalue="Task.Key Task" />
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.testrunner" />
@@ -418,7 +416,17 @@
       <workItem from="1542630991809" duration="155000" />
       <workItem from="1542631185817" duration="108000" />
       <workItem from="1542634711284" duration="5615000" />
-      <workItem from="1542642359204" duration="3323000" />
+      <workItem from="1542642359204" duration="3443000" />
+      <workItem from="1542671285937" duration="59000" />
+      <workItem from="1542718309410" duration="26000" />
+      <workItem from="1542718363397" duration="133000" />
+      <workItem from="1542926875330" duration="2931000" />
+      <workItem from="1543020353758" duration="1412000" />
+      <workItem from="1543043434900" duration="250000" />
+      <workItem from="1543058117247" duration="595000" />
+      <workItem from="1543115431728" duration="20000" />
+      <workItem from="1543139752360" duration="1479000" />
+      <workItem from="1543355228169" duration="8175000" />
     </task>
     <task id="LOCAL-00001" summary="First accepted :)">
       <created>1540228434320</created>
@@ -462,11 +470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542468817351</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Solved dp problem div2C from codeforces">
+      <created>1542645760042</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542645760042</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153887000" />
+    <option name="totallyTimeSpent" value="169087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,13 +494,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-25" width="1368" height="794" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3151515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17348485" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32985073" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48636365" visible="true" weight="0.419403" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48636365" weight="0.41791046" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39402986" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,7 +511,7 @@
       <window_info anchor="bottom" id="Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49676898" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5121212" side_tool="true" weight="0.32089552" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4878788" weight="0.32089552" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4878788" weight="0.31791046" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32985073" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -525,17 +541,23 @@
     <MESSAGE value="Codeforces" />
     <MESSAGE value="Add Fractions Again?!" />
     <MESSAGE value="Solved one uva problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved one uva problem." />
+    <MESSAGE value="Solved dp problem div2C from codeforces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved dp problem div2C from codeforces" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="res" language="ObjectiveC" />
+        <watch expression="a[x1][y1]" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>d[v]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>res</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -544,18 +566,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tasks/uva/FractionsAgain.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="44" column="106" selection-start-line="44" selection-start-column="106" selection-end-line="44" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/Nature.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/B.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/tests.cpp" />
-    <entry file="file://$PROJECT_DIR$/library/testlib.h" />
-    <entry file="file://$PROJECT_DIR$/tasks/H.cpp" />
     <entry file="file://$PROJECT_DIR$/tasks/ARaznoobraznayaPerestanovka.cpp" />
     <entry file="file:///usr/include/c++/5/bits/stl_iterator.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -594,20 +604,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/DRomanIChisla.cpp" />
-    <entry file="file://$PROJECT_DIR$/submission.template">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.template">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -621,13 +617,6 @@
     <entry file="file://$PROJECT_DIR$/tasks/BObespokoennieZhilci.cpp" />
     <entry file="file://$PROJECT_DIR$/tasks/CHoroshiiMassiv.cpp" />
     <entry file="file://$PROJECT_DIR$/tasks/a.cpp" />
-    <entry file="file://$PROJECT_DIR$/task.template">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/5/bits/allocator.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -668,41 +657,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/opencup14.cpp" />
-    <entry file="file://$PROJECT_DIR$/tasks/TaskE.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskG.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskD.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskF.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskA.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -710,40 +664,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskB.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/TaskC.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="86" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testrunner/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/cf/CIgraNaFortepiano.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+        <state relative-caret-position="-47">
+          <caret line="82" column="12" lean-forward="true" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/TaskG.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskE.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskA.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskB.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskC.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskD.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/TaskF.cpp" />
+    <entry file="file://$PROJECT_DIR$/submission.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/DTeleperedachi.cpp" />
+    <entry file="file://$PROJECT_DIR$/tasks/CDelimost.cpp" />
+    <entry file="file://$PROJECT_DIR$/run.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/opencupM.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/ctype.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" selection-end-line="133" />
+        <state relative-caret-position="1005">
+          <caret line="121" column="12" lean-forward="true" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/KeyTask.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>

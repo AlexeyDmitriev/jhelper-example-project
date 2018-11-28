@@ -1,4 +1,4 @@
-#include "../tasks/cf/CIgraNaFortepiano.cpp"
+#include "/home/jedi/Desktop/competitive/tasks/KeyTask.cpp"
 
 #include <iostream>
 #include <fstream>
@@ -29,7 +29,7 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
 	std::vector<jhelper::Test> tests = {
-		{"1\n50", "1", true, true},
+		{"1 10\n*........X\n\n1 3\n*#X\n\n3 20\n####################\n#XY.gBr.*.Rb.G.GG.y#\n####################\n\n0 0\n", "Escape possible in 9 steps.\nThe poor student is trapped!\nEscape possible in 45 steps.\n", true, true},
 	};
 	bool allOK = true;
 	int testID = 0;
@@ -48,7 +48,7 @@ int main() {
 			std::stringstream in(test.input);
 			std::ostringstream out;
 			std::clock_t start = std::clock();
-			CIgraNaFortepiano solver;
+			KeyTask solver;
 			solver.solve(in, out);
 			std::clock_t finish = std::clock();
 			double currentTime = double(finish - start) / CLOCKS_PER_SEC;
