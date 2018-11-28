@@ -11,17 +11,23 @@ using namespace std;
 #define printvpair(v) for(auto x : v) cout << x.first  <<" " << x.second << endl;
 #define printv(v) if (v.size()> 0) {for(auto x : v) cout << x << " "; cout << endl;}
 #define MINUS(a) memset(a,0xff,sizeof(a))
-#define vertex pair<int,pair<int,string> >
-const int N = (int)1e5 + 7;
+#define vertex pair<int,pair<int,int> >
+const int N = (int)1e2 + 7;
 
 const int dx[4] = {0,  0, 1, -1};
 const int dy[4] = {1, -1, 0,  0};
 
-
+bool isKthBitSet(int n, int k) {
+	return static_cast<bool>((n & 1 << k) != 0);
+}
+string keyOrder = "byrg";
+bool used[N][N][(1 << 4) + 1];
+int d[N][N][(1 << 4) + 1];
 class KeyTask {
 public:
 	void run(int n,int m,std::istream& cin, std::ostream& cout){
 		vector<vector<char> > a(n,vector<char >(m));
+		vector<vector<char> > exits(n,vector<char >(m));
 		int x,y, endX = 0, endY = 0;
 		for (int i = 0; i < n; ++i) {
 			for (int j = 0; j < m; ++j) {
@@ -31,34 +37,32 @@ public:
 					y = j;
 				}
 				if (a[i][j] == 'X'){
-					endX = i;
-					endY = j;
+					exits[i][j] = true;
 				}
 			}
 		}
 		queue<vertex> queue1;
-		map<vertex ,bool > used;
-		map<vertex,int> d;
+
+
 		vertex temp;
 		temp.first = x;
 		temp.second.first = y;
-		temp.second.second = "";
+		temp.second.second = 0;
 		queue1.emplace(temp);
-		used[queue1.back()] = true;
-		d[queue1.back()] = 1;
+		used[x][y][0] = true;
+		d[x][y][0] = 1;
 		int ans = 0;
 		while (!queue1.empty()){
 			vertex cur = queue1.front();
 			queue1.pop();
-
 			for (int i = 0; i < 4; ++i) {
 				int x1 = cur.first + dx[i];
 				int y1 = cur.second.first + dy[i];
-				string keys = cur.second.second;
-
+				int keys = cur.second.second;
+				
 				if (0 <= x1 && x1 < n && 0 <= y1 && y1 < m && a[x1][y1] != '#'){
-					if (x1 == endX && y1 == endY){
-						ans = d[cur];
+					if (exits[x1][y1]){
+						ans = d[cur.first][cur.second.first][cur.second.second];
 						cout << "Escape possible in "<< ans <<" steps." << endl;
 						return;
 					}
@@ -66,29 +70,30 @@ public:
 					v.first = x1;
 					v.second.first = y1;
 					v.second.second = keys;
-					if (a[x1][y1] == '.' || a[x1][y1] == '*'){
-						if (!used[v]){
+					if ((a[x1][y1] == '.' || a[x1][y1] == '*')){
+						if (!used[x1][y1][keys]){
 							queue1.push(v);
-							used[v] = true;
-							d[v] = d[cur] + 1;
+							used[x1][y1][keys] = true;
+							d[x1][y1][keys] = d[cur.first][cur.second.first][cur.second.second] + 1;
 						}
 					} else if (islower(a[x1][y1])){
-						if (keys.find(a[x1][y1]) == -1){
-							keys = keys + a[x1][y1];
+						int order = static_cast<int>(keyOrder.find(a[x1][y1]));
+						if (order != -1){
+							keys |= (1 << (order));
 						}
-						sort(all(keys));
 						v.second.second = keys;
-						if (!used[v]){
+						if (!used[x1][y1][keys]){
 							queue1.push(v);
-							used[v] = true;
-							d[v] = d[cur] + 1;
+							used[x1][y1][keys] = true;
+							d[x1][y1][keys] = d[cur.first][cur.second.first][cur.second.second] + 1;
 						}
 					} else {
 						char key = (char)tolower(a[x1][y1]);
-						if (keys.find(key) != -1){
-							used[v] = true;
+						int order = static_cast<int>(keyOrder.find(key));
+						if (order != -1 && isKthBitSet(keys,order)){
+							used[x1][y1][keys] = true;
 							queue1.push(v);
-							d[v] = d[cur] + 1;
+							d[x1][y1][keys] = d[cur.first][cur.second.first][cur.second.second] + 1;
 						}
 					}
 				}
