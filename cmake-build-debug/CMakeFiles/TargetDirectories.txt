@@ -1,0 +1,4 @@
+/home/jedi/Desktop/competitive/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jedi/Desktop/competitive/cmake-build-debug/CMakeFiles/test.dir
+/home/jedi/Desktop/competitive/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jedi/Desktop/competitive/cmake-build-debug/CMakeFiles/testrunner.dir

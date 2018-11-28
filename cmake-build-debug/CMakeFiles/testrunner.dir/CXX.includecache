@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jedi/Desktop/competitive/tasks/KeyTask.cpp
+bits/stdc++.h
+-
+
+/home/jedi/Desktop/competitive/testrunner/main.cpp
+/home/jedi/Desktop/competitive/tasks/KeyTask.cpp
+-
+iostream
+-
+fstream
+-
+sstream
+-
+string
+-
+vector
+-
+cctype
+-
+ctime
+-
+
