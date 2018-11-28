@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/testrunner.dir/testrunner/main.cpp.o  -o testrunner 

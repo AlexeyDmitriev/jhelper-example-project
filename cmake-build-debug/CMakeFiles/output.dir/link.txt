@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/output.dir/tasks/uva/divisibility.cpp.o  -o output 

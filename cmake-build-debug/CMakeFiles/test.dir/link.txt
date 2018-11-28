@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/test.dir/tasks/KeyTask.cpp.o  -o test 
