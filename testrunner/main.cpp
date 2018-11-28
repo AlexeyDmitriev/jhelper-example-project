@@ -1,4 +1,4 @@
-#include "/home/jedi/Desktop/competitive/tasks/KeyTask.cpp"
+#include "../tasks/spoj/KeyTask.cpp"
 
 #include <iostream>
 #include <fstream>

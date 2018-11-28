@@ -31,18 +31,19 @@ string keyOrder = "byrg";
 
 class globalVariables {
 public:
-    bool used[N][N][(1 << 4) + 1];
-    int d[N][N][(1 << 4) + 1];
+	bool used[N][N][(1 << 4) + 1];
+	int d[N][N][(1 << 4) + 1];
+	char a[N][N];
 };
 class KeyTask {
 public:
-	void run(int n,int m,std::istream& cin, std::ostream& cout){
-		vector<vector<char> > a(n,vector<char >(m));
+	void run(int n,int m){
+		auto *g = new globalVariables();
 		vector<vector<char> > exits(n,vector<char >(m));
 		int x,y, endX = 0, endY = 0;
 		for (int i = 0; i < n; ++i) {
+			scanf("%s", g->a[i]);
 			for (int j = 0; j < m; ++j) {
-				cin >> a[i][j];
 				if (a[i][j] == '*'){
 					x = i;
 					y = j;
@@ -54,14 +55,14 @@ public:
 		}
 		queue<vertex> queue1;
 
-        auto *g = new globalVariables();
+
 		vertex temp;
 		temp.first = x;
 		temp.second.first = y;
 		temp.second.second = 0;
 		queue1.emplace(temp);
-        g->used[x][y][0] = true;
-        g->d[x][y][0] = 1;
+		g->used[x][y][0] = true;
+		g->d[x][y][0] = 1;
 		int ans = 0;
 		while (!queue1.empty()){
 			vertex cur = queue1.front();
@@ -74,7 +75,7 @@ public:
 				if (0 <= x1 && x1 < n && 0 <= y1 && y1 < m && a[x1][y1] != '#'){
 					if (exits[x1][y1]){
 						ans = g->d[cur.first][cur.second.first][cur.second.second];
-						cout << "Escape possible in "<< ans <<" steps." << endl;
+						printf("Escape possible in %d steps.\n", ans);
 						return;
 					}
 					vertex v;
@@ -84,8 +85,8 @@ public:
 					if ((a[x1][y1] == '.' || a[x1][y1] == '*')){
 						if (!g->used[x1][y1][keys]){
 							queue1.push(v);
-                            g->used[x1][y1][keys] = true;
-                            g->d[x1][y1][keys] = g->d[cur.first][cur.second.first][cur.second.second] + 1;
+							g->used[x1][y1][keys] = true;
+							g->d[x1][y1][keys] = g->d[cur.first][cur.second.first][cur.second.second] + 1;
 						}
 					} else if (islower(a[x1][y1])){
 						int order = static_cast<int>(keyOrder.find(a[x1][y1]));
@@ -95,43 +96,40 @@ public:
 						v.second.second = keys;
 						if (!g->used[x1][y1][keys]){
 							queue1.push(v);
-                            g->used[x1][y1][keys] = true;
-                            g->d[x1][y1][keys] = g->d[cur.first][cur.second.first][cur.second.second] + 1;
+							g->used[x1][y1][keys] = true;
+							g->d[x1][y1][keys] = g->d[cur.first][cur.second.first][cur.second.second] + 1;
 						}
 					} else {
 						char key = (char)tolower(a[x1][y1]);
 						int order = static_cast<int>(keyOrder.find(key));
 						if (order != -1 && isKthBitSet(keys,order)){
-                            g->used[x1][y1][keys] = true;
+							g->used[x1][y1][keys] = true;
 							queue1.push(v);
-                            g->d[x1][y1][keys] = g->d[cur.first][cur.second.first][cur.second.second] + 1;
+							g->d[x1][y1][keys] = g->d[cur.first][cur.second.first][cur.second.second] + 1;
 						}
 					}
 				}
 			}
 		}
 		if (queue1.empty()){
-			cout << "The poor student is trapped!" << endl;
+			printf("The poor student is trapped!\n");
 		}
 	}
-	void solve(std::istream& cin, std::ostream& cout) {
-		ios::sync_with_stdio(false);
-		cin.tie(0);
+	void solve() {
 		int n,m;
-		while (cin >> n >> m){
+		while (scanf( "%d %d", &n, &m){
 			if (n == 0 && m == 0){
 				break;
 			}
-			run(n,m,cin,cout);
+			run(n,m);
 		}
 	}
 };
 
 
 int main() {
-	KeyTask solver;
-	std::istream& in(std::cin);
-	std::ostream& out(std::cout);
-	solver.solve(in, out);
+	KeyTask keyTask;
+	keyTask.solve();
 	return 0;
 }
+

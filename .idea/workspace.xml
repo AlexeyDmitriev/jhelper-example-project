@@ -14,11 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e173ed55-e541-424a-82e1-b5da979c74d7" name="Default" comment="Optimized with bitmasks still getting TL">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Key_Task.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Key_Task.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/output/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/KeyTask.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/KeyTask.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testrunner/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/testrunner/main.cpp" afterDir="false" />
     </list>
     <ignored path="jhelper-example-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +69,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="256" />
+          <entry key="cpp" value="259" />
           <entry key="h" value="11" />
           <entry key="hpp" value="4" />
           <entry key="md" value="1" />
@@ -83,13 +80,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="8" />
-          <entry key="ObjectiveC" value="304" />
+          <entry key="ObjectiveC" value="307" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="18460" />
+          <entry key="cpp" value="18495" />
           <entry key="hpp" value="166" />
           <entry key="mm" value="7" />
           <entry key="template" value="59" />
@@ -100,7 +97,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="42" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="18691" />
+          <entry key="ObjectiveC" value="18726" />
           <entry key="PLAIN_TEXT" value="239" />
         </counts>
       </usages-collector>
@@ -116,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tasks/KeyTask.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+            <state relative-caret-position="590">
+              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
             </state>
           </provider>
         </entry>
@@ -228,7 +225,17 @@
             <path>
               <item name="emli-competitive-programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="competitive" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emli-competitive-programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="competitive" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emli-competitive-programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="competitive" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="emli-competitive-programming" type="b2602c69:ProjectViewProjectNode" />
@@ -415,7 +422,7 @@
       <workItem from="1543115431728" duration="20000" />
       <workItem from="1543139752360" duration="1479000" />
       <workItem from="1543355228169" duration="13701000" />
-      <workItem from="1543369458460" duration="490000" />
+      <workItem from="1543369458460" duration="4783000" />
     </task>
     <task id="LOCAL-00001" summary="First accepted :)">
       <created>1540228434320</created>
@@ -473,11 +480,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543363620346</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Optimized with bitmasks still getting TL">
+      <created>1543369993728</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543369993728</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175103000" />
+    <option name="totallyTimeSpent" value="179396000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,7 +506,7 @@
     <frame x="-1" y="-25" width="1368" height="794" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17575757" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17575757" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -539,7 +553,8 @@
     <MESSAGE value="Solved one uva problem." />
     <MESSAGE value="Solved dp problem div2C from codeforces" />
     <MESSAGE value="Solving problem KeyTask. Got TL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solving problem KeyTask. Got TL" />
+    <MESSAGE value="Optimized with bitmasks still getting TL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized with bitmasks still getting TL" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -723,15 +738,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/output/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="32" lean-forward="true" selection-end-line="137" />
+        <state relative-caret-position="954">
+          <caret line="130" column="20" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/KeyTask.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        <state relative-caret-position="590">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
