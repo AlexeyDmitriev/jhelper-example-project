@@ -29,7 +29,7 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
 	std::vector<jhelper::Test> tests = {
-		{"1 10\n*........X\n\n1 3\n*#X\n\n3 20\n####################\n#XY.gBr.*.Rb.G.GG.y#\n####################\n\n0 0\n", "Escape possible in 9 steps.\nThe poor student is trapped!\nEscape possible in 45 steps.\n", true, true},
+		{"1 10\n*.........\n\n1 3\n*#X\n\n3 20\n####################\n#XY.gBr.*.Rb.G.GG.y#\n####################\n\n0 0\n", "Escape possible in 9 steps.\nThe poor student is trapped!\nEscape possible in 45 steps.\n", true, true},
 	};
 	bool allOK = true;
 	int testID = 0;
